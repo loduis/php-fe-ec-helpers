@@ -8,7 +8,7 @@
     ],
     "autoload": {
         "files": [
-            "src/helpers.php",
+            "src/constants.php",
             "src/functions.php"
         ]
     },
