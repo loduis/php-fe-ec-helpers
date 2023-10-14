@@ -1,0 +1,16 @@
+{
+    "name": "loduis/feec-helpers",
+    "authors": [
+        {
+            "name": "Loduis Madariaga",
+            "email": "loduis@gmail.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "src/helpers.php",
+            "src/functions.php"
+        ]
+    },
+    "minimum-stability": "dev"
+}
