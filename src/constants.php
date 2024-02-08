@@ -37,3 +37,24 @@ const DOC_PASSPORT = '06';
 const DOC_FINAL_CONSUMER = '07';
 
 const DOC_ID_FOREIGN = '08';
+
+
+// TAX RATES
+
+const TAX_VAT = 2;
+
+const TAX_ICE = 3;
+
+const TAX_IRBPNR = 4;
+
+const VAT_RATE_0 = 0;
+
+const VAT_RATE_12 = 2;
+
+const VAT_RATE_14 = 3;
+
+const VAT_EXCLUDE = 6;
+
+const VAT_EXCEPT = 7;
+
+const VAT_DIFFERENTIATED = 8;
