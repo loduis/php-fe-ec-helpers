@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 namespace FEEC;
 
@@ -25,3 +25,15 @@ const STATUS_REJECTED = 'RECHAZADO';
 const STATUS_BACK = 'DEVUELTA';
 
 const STATUS_RECEIVED = 'RECIBIDA';
+
+// TYPE OF DOCUMENT FOR CUSTOMERS
+
+const DOC_RUC = '04';
+
+const DOC_ID_CARD = '05';
+
+const DOC_PASSPORT = '06';
+
+const DOC_FINAL_CONSUMER = '07';
+
+const DOC_ID_FOREIGN = '08';
