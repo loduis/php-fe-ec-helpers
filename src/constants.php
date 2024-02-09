@@ -4,7 +4,7 @@ namespace FEEC;
 
 const ENV_TEST = 1;
 
-const ENV_PRO = 2;
+const ENV_PROD = 2;
 
 const TYPE_EMISSION = 1; // Es una constante revisar pagina 21 tabla 2
 
