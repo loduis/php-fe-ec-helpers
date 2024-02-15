@@ -61,6 +61,12 @@ const VAT_EXCEPT = 7;
 
 const VAT_DIFFERENTIATED = 8;
 
+// REGIMENTS
+
+const RIMPE_ENTREPRENEURS = 1;
+
+const RIMPE_POPULAR_BUSINESSES = 2;
+
 
 function get_key(...$entries): string
 {
