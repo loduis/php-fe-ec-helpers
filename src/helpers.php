@@ -61,6 +61,8 @@ const VAT_EXCEPT = 7;
 
 const VAT_DIFFERENTIATED = 8;
 
+const VAT_RATES = [0, 12, 14];
+
 // REGIMENTS
 
 const RIMPE_ENTREPRENEURS = 1;
