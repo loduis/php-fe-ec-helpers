@@ -55,7 +55,7 @@ const VAT_RATE_12 = 2;
 
 const VAT_RATE_14 = 3;
 
-const VAT_EXCLUDE = 6;
+const VAT_EXCLUDED = 6;
 
 const VAT_EXCEPT = 7;
 
