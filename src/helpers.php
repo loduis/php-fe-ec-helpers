@@ -49,9 +49,9 @@ const TAX_ICE = 3;
 
 const TAX_IRBPNR = 4;
 
-const TAX_VAT_ID_EXCLUDED = -1;
+const TAX_VAT_RATE_EXCLUDED = -1;
 
-const TAX_VAT_ID_EXEMPT = -2;
+const TAX_VAT_RATE_EXEMPT = -2;
 
 const TAX_VAT_RATE_0 = 0;
 
