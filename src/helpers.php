@@ -142,7 +142,7 @@ function get_key(...$entries): string
 
 function get_number(string $number): string
 {
-    [$n1, $n2, $n3] = explode('', $number);
+    [$n1, $n2, $n3] = explode('-', $number);
 
     return number_pad($n1, 3) . '-' .
         number_pad($n2, 3) . '-' .
