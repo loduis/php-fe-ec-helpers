@@ -11,5 +11,15 @@
             "src/helpers.php"
         ]
     },
-    "minimum-stability": "dev"
+    "require": {
+        "php": "^7.4|^8.0",
+        "loduis/support": "dev-main"
+    },
+    "minimum-stability": "dev",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/loduis/php-support.git"
+        }
+    ]
 }

@@ -1,0 +1,62 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "4133a88e1fd9b94b51db649ce5318a34",
+    "packages": [
+        {
+            "name": "loduis/support",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/loduis/php-support.git",
+                "reference": "7a30eb4202cd102f76947624d60be7f361b2041f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/loduis/php-support/zipball/7a30eb4202cd102f76947624d60be7f361b2041f",
+                "reference": "7a30eb4202cd102f76947624d60be7f361b2041f",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Php\\": "src/"
+                },
+                "files": [
+                    "src/helpers.php"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Loduis Madariaga",
+                    "email": "loduis@gmail.com"
+                }
+            ],
+            "support": {
+                "source": "https://github.com/loduis/php-support/tree/main",
+                "issues": "https://github.com/loduis/php-support/issues"
+            },
+            "time": "2024-02-21T15:33:00+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "loduis/support": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": "^7.4|^8.0"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}

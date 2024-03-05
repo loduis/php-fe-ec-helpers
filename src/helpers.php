@@ -2,6 +2,8 @@
 
 namespace FEEC;
 
+use function Php\number_pad;
+
 const ENV_TEST = 1;
 
 const ENV_PROD = 2;
@@ -136,4 +138,13 @@ function get_key(...$entries): string
     }
 
     return $key . $result;
+}
+
+function get_number(string $number): string
+{
+    [$n1, $n2, $n3] = explode('', $number);
+
+    return number_pad($n1, 3) . '-' .
+        number_pad($n2, 3) . '-' .
+        number_pad($n3, 9);
 }
