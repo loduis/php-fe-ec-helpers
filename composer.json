@@ -15,6 +15,8 @@
         "php": "^7.4|^8.0",
         "loduis/support": "dev-main"
     },
+    "prefer-stable": true,
+    "prefer-dist": true,
     "minimum-stability": "dev",
     "repositories": [
         {

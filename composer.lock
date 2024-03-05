@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4133a88e1fd9b94b51db649ce5318a34",
+    "content-hash": "1328c2d43935e26d312b4af75315a6eb",
     "packages": [
         {
             "name": "loduis/support",
@@ -52,7 +52,7 @@
     "stability-flags": {
         "loduis/support": 20
     },
-    "prefer-stable": false,
+    "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
         "php": "^7.4|^8.0"
