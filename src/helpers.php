@@ -54,28 +54,33 @@ const TAX_ICE = 3;
 
 const TAX_IRBPNR = 4;
 
-const TAX_VAT_RATE_EXCLUDED = -1;
-
-const TAX_VAT_RATE_EXEMPT = -2;
-
 const TAX_VAT_RATE_0 = 0;
+
+const TAX_VAT_RATE_5 = 5;
 
 const TAX_VAT_RATE_12 = 2;
 
+const TAX_VAT_RATE_13 = 10;
+
 const TAX_VAT_RATE_14 = 3;
+
+const TAX_VAT_RATE_15 = 4;
 
 const TAX_VAT_EXCLUDED = 6;
 
 const TAX_VAT_EXEMPT = 7;
 
-const VAT_DIFFERENTIATED = 8;
+const TAX_VAT_DIFFERENTIATED = 8;
 
 const VAT_RATES = [
     TAX_VAT_EXEMPT => 0,
     TAX_VAT_EXCLUDED => 0,
     TAX_VAT_RATE_0 => 0,
+    TAX_VAT_RATE_5 => 5,
     TAX_VAT_RATE_12 => 12,
-    TAX_VAT_RATE_14 => 14
+    TAX_VAT_RATE_13 => 13,
+    TAX_VAT_RATE_14 => 14,
+    TAX_VAT_RATE_15 => 15
 ];
 
 // WITHHOLDINGS
