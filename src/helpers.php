@@ -2,7 +2,7 @@
 
 namespace FEEC;
 
-use function Php\number_pad;
+use function PHP\number_pad;
 
 const ENV_TEST = 1;
 
